@@ -1,4 +1,3 @@
-
 #resource block
 resource "aws_instance" "my_ec2" {
   ami           = data.aws_ami.ubuntu.id
@@ -27,3 +26,5 @@ resource "aws_vpc" "my_vpc" {
     Name = "my-vpc"
   }
 }
+
+
